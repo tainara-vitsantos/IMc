@@ -1,0 +1,38 @@
+/* 8. Button.css - Estilização do botão */
+button {
+    text-transform: uppercase;
+    padding: 1rem 1.5rem;
+    background-color: #F44236;
+    border: none;
+    color: white;
+    cursor: pointer;
+    opacity: .9;
+    flex: 1;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    transition: opacity 0.2s ease, transform 0.1s ease;
+}
+
+button:hover {
+    opacity: 1;
+    transform: translateY(-1px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+/* Botão Limpar */
+#clear-btn {
+    background-color: #444;
+}
+
+/* Botão Voltar */
+#back-btn {
+    background-color: #3a5bdb;
+    flex: 0;
+    padding: 0.8rem 2rem;
+    margin-top: 1rem;
+}

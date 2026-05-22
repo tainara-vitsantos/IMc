@@ -1,0 +1,9 @@
+/* Estrutura Inicial da classe .container*/
+.container {
+  min-width: 400px;
+  min-height: 400px;
+  background-color: #1d1e33;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0,0.4 );
+}

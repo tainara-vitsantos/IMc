@@ -1,0 +1,51 @@
+// 6. Dados das classificações do IMC (baseado na tabela da OMS)
+export const data = [
+    {
+        min: 0,
+        max: 18.4,
+        classification: "Abaixo de 18,5",
+        info: "Abaixo do Peso",
+        obesity: "-",
+        infoClass: "low",
+    },
+    {
+        min: 18.5,
+        max: 24.9,
+        classification: "Entre 18,5 e 24,9",
+        info: "Peso Normal",
+        obesity: "0",
+        infoClass: "good",
+    },
+    {
+        min: 25,
+        max: 29.9,
+        classification: "Entre 25,0 e 29,9",
+        info: "Sobrepeso",
+        obesity: "I",
+        infoClass: "medium",
+    },
+    {
+        min: 30,
+        max: 34.9,
+        classification: "Entre 30,0 e 34,9",
+        info: "Obesidade Grau II",
+        obesity: "II",
+        infoClass: "high",
+    },
+    {
+        min: 35,
+        max: 39.9,
+        classification: "Entre 35,0 e 39,9",
+        info: "Obesidade Grau III",
+        obesity: "III",
+        infoClass: "high",
+    },
+    {
+        min: 40,
+        max: 99,
+        classification: "Acima de 40,0",
+        info: "Obesidade Grau III",
+        obesity: "IV",
+        infoClass: "high",
+    },
+];
